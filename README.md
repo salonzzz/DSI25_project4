@@ -25,14 +25,14 @@ As we hoped to correctly predict whether West Nile virus is present and minimise
 ### Results & Insights
 The test set was ran on each model and the following results were produced:
 
-| Model | AUC Score | F2 score | Accuracy score |
+| Model | AUC Score | Recall score | Accuracy score |
 | --- | --- | --- | --- |
-| Logistic Regression(Baseline)| 0.53 | 0.08 | 0.06 |
-| Logistic Regression | 0.74 | 0.42 | 0.90 |
-| SVC | 0.74 | 0.44 | 0.88 |
-| Ada Boost | 0.79 | 0.52 | 0.88 |
-| Gradient Boost | 0.77 | 0.51 | 0.89 |
-| XGBoost| 0.83 | 0.53 | 0.85 |
+| Logistic Regression(Baseline)| 0.53 | 0.06 | 0.95 |
+| Logistic Regression | 0.74 | 0.57 | 0.90 |
+| SVC | 0.74 | 0.59 | 0.88 |
+| Ada Boost | 0.79 | 0.70 | 0.88 |
+| Gradient Boost | 0.77 | 0.65 | 0.89 |
+| XGBoost| 0.83 | 0.81 | 0.85 |
 
 XGBoost was identified as the best model.
 
